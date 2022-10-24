@@ -1,4 +1,7 @@
 # Require statements should go here.
+require 'bundler/setup'
+Bundler.require(:default, :development)
+
 require_relative '../lib/garden.rb'
 require_relative '../lib/plant.rb'
 
